@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NewsPortal.Models.News>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+
+@foreach (var item in Model)
+{
+    <div class="panel tab-pane" style="background:#808080; color:white;">
+
+        <div class="panel-heading">
+            <p class="panel-title">
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </p>
+        </div>
+        <div class="panel-body">
+            <p>
+                @item.Conteudo.Substring(0, 100) ...
+            </p>
+        </div>
+        <div class="panel-footer">
+            <p>
+                @Html.ActionLink("Ler mais","Details", new { id =item.Id}, new { @class = "btn btn-default"})
+            </p>
+        </div>
+
+    </div>
+
+
+}
+

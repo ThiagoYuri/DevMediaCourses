@@ -1,0 +1,11 @@
+﻿@model NewsPortal.Models.News
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<p>Publicado por <strong>@Model.Autor</strong> em <strong>@Model.Date.ToString("dd/MM/yyyy")</strong> </p>
+
+<p>@Model.Conteudo</p>
