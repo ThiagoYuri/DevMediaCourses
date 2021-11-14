@@ -6,3 +6,5 @@
  
 + [Web ASP.NET](https://github.com/ThiagoYuri/DEVMEDIA/tree/main/Web%20ASP.NET) - Projetos que foram desenvolvidos em ASP.NET a partir dos cursos da DEVMEDIA.
 
++ [Web](https://github.com/ThiagoYuri/DEVMEDIA/tree/main/Web) - Projetos para estudos de javascript, css, html e etc.
+
