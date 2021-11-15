@@ -4,4 +4,4 @@
 
 + [curso-javascript](https://github.com/ThiagoYuri/DEVMEDIA/tree/main/Web/curso-javascript) - Conhecimento básico em javascript. (Primeiros passos com JavaScript)
 
-+ [HelloWorld-nodet](https://github.com/ThiagoYuri/DEVMEDIA/tree/main/Web/HelloWorld-node) - Conhecimento básico em javascript com o interpretador node. (Hello World com a linguagem JavaScriptt)
++ [HelloWorld-node](https://github.com/ThiagoYuri/DEVMEDIA/tree/main/Web/HelloWorld-node) - Conhecimento básico em javascript com o interpretador node. (Hello World com a linguagem JavaScript)
